@@ -16,7 +16,7 @@ This project, and was bootstrapped with the following tools.
 ## To run the project in development mode run...
 
 ```sh
-npm start
+npm dev
 ```
 
 ## To run the test written for the project run...
@@ -27,16 +27,6 @@ npm test
 
 Please note that this script runs the tests in watch mode, for development purposes.
 
-## To build and optimize the project for production run...
-
-```sh
-npm run build
-```
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
 
 ## Learn More about create-react-app
 
