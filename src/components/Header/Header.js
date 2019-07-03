@@ -1,10 +1,16 @@
 import React from 'react'
-// import { HeaderNav, Logo } from './Header.styles'
+import { NavBar, Title, Logo } from './Header.styles'
+import flickr from '../../assets/imgs/flickr-logo.svg'
+import react from '../../assets/imgs/logo.svg'
 
 const Header = props => {
 
   return (
-    <h1>Hey {props.content}</h1>
+    <NavBar>
+        <Logo src={react} />
+        <Logo src={flickr} />
+        <Title>Hey {props.content}</Title>
+    </NavBar>
   )
 }
 export default Header

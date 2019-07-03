@@ -1,10 +1,14 @@
 import React from 'react'
-// import { HeaderNav, Logo } from './Header.styles'
+import { Img, Card } from './Body.styles'
 
 const Body = props => {
 
   return (
-    <h1>Hey {props.content}</h1>
+    <Card>
+      {/* <Img src="https://i.imgur.com/oN7i0Yu.jpg" /> */}
+      <Img src="https://i.imgur.com/r82EYbw.png" />
+      Hey {props.content}
+    </Card>
   )
 }
 export default Body
