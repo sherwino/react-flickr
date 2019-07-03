@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import Home from './pages/Home';
 
-const App = () => <h1 className="App-header">Hi World</h1>;
+const App = () =><div><Home className="App">APPPP JS</Home></div>;
 
 export default App;
 
