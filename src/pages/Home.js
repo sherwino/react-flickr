@@ -6,7 +6,7 @@ const Home = () => (
     <div>
         <Header content="Header" />
         <Body content="Body" />
-        <Footer content="Footer" />
+        {/* <Footer content="Footer" /> */}
     </div>
 );
 

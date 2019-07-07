@@ -5,7 +5,7 @@ const NavBar = styled.header`
   width: 100%;
   height: 5vh;
   display: flex;
-  background: linear-gradient(rgba(72,85,99,0.1), #000);
+  background: rgba(72,85,99,0.3);
   box-sizing: border-box;
   justify-content: center;
   flex-direction: row;
