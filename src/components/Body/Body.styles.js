@@ -12,32 +12,38 @@ const Card = styled.div`
   `;
 
 const CardLink = styled.a`
-    width: 100%;
+    margin: 0 0 0 0.5rem;
     text-decoration: none;  
     color: #000;  
 `;
 
 const Details = styled.div`
+    margin: 0 1rem 0 0;
     display: flex;
     flex-direction: row;
-    // box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+    overflow: visible;
+`;
 
-    // align-self: flex-end;
-    // color: black;
+const ImgLink = styled.a`
+    width: 100%;
 `;
 
 const ImgTitle = styled.strong`
-    // flex: auto;
+    flex: content;
     width: 100%;
-`;
-const ImgAuthor = styled.div`
-    margin: 0 0 0 0.5rem;
-    flex: initial;
-    width: 150px;
-`;
-    const ImgStats = styled.div`
-    // display: flex;
+    margin: 0 0.5rem 0 0;
 
+`;
+
+const ImgAuthor = styled.span`
+    margin: 0 1.5rem 0 0.5rem;
+`;
+
+const ImgStats = styled.div`
+    background: rgba(72,85,99,0.9);
+    box-shadow: 2px 2px 1px #aaa;
 `;
 
 const Img = styled.img`
@@ -47,22 +53,20 @@ const Img = styled.img`
 `;
 
 const Stat = styled.div`
-width: 6.5rem;
-font-size: 0.75rem;
-text-align: right;
-flex: none;
-// align-self: start;
-// flex-direction: row;
-
+    color: #fff;
+    width: 6.5rem;
+    font-size: 0.75rem;
+    text-align: center;
 `;
 
 export {
     Card,
     CardLink,
     Details,
-    ImgTitle,
     ImgAuthor,
+    ImgLink,
     ImgStats,
+    ImgTitle,
     Img,
     Stat,
 }

@@ -5,7 +5,7 @@ const NavBar = styled.header`
   width: 100%;
   height: 5vh;
   display: flex;
-  background: rgba(72,85,99,0.3);
+  background: rgba(72,85,99,0.1);
   box-sizing: border-box;
   justify-content: center;
   flex-direction: row;
@@ -24,9 +24,9 @@ const Logo = styled.img`
 `;
 
 const Title = styled.div`
-width: 100%;
-font-size: 2.5rem;
-font-weight: Bold;
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: Bold;
 `;
 
 export {
