@@ -1,10 +1,10 @@
 import Header from './Header/Header'
 import Body from './Body/Body'
-import Footer from './Footer/Footer'
+import Slider from './Slider/Slider'
 
 
 export {
     Header,
     Body, 
-    Footer
+    Slider
 }

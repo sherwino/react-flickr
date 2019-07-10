@@ -1,5 +1,5 @@
 import React from 'react'
-import { Img, Card, Details, ImgTitle, ImgAuthor, ImgStats, CardLink, Stat, ImgLink } from './Body.styles'
+import { Img, Card, Details, ImgTitle, ImgAuthor, ImgStats, LinkContainer, CardLink, Stat, ImgLink } from './Body.styles'
 
 const Body = props => {
 
@@ -9,24 +9,20 @@ const Body = props => {
         <Img src="https://live.staticflickr.com/1960/45670544451_606245a7ce_k.jpg" />
       </ImgLink>
       <Details>
-        <ImgStats>
+      <ImgStats>
           <Stat>January 15, 2017</Stat>
           <Stat>3,234,324 views</Stat>
           <Stat>3,324 faves</Stat>
           <Stat>324 comments</Stat>
         </ImgStats>
-        <div>
+        <LinkContainer>
           <CardLink href="#">
               <ImgTitle>Wintertime Happiness</ImgTitle>
           </CardLink>
           <CardLink href="#">
-              <span>by</span>
-              <ImgAuthor>Alicja Zmyylowska</ImgAuthor>
+              <ImgAuthor><span>by</span> Alicja Zmyylowska</ImgAuthor>
           </CardLink>
-        </div>
-        {/* <ImgStats></ImgStats>
-        <ImgStats></ImgStats>
-      <ImgStats></ImgStats> */}
+        </LinkContainer>
       </Details>
     </Card>
   )

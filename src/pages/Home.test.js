@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, cleanup } from '@testing-library/react'
 import 'jest-dom/extend-expect'
-import { Header, Body, Footer } from '../components'
+import { Header, Body, Slider } from '../components'
 
 afterEach(cleanup)
 
@@ -26,13 +26,13 @@ describe('Homepage', () => {
    
        })
 
-       test('renders a Footer', () => {
-        const { getByText } = render(<Footer 
-                                    content="Footer"
+       test('renders a Slider', () => {
+        const { getByText } = render(<Slider 
+                                    content="Slider"
                                  />)
    
         // as suggested by Giorgio Polvara a more idiomatic way:
-        expect(getByText('Hey Footer')).toBeInTheDocument()
+        expect(getByText('Hey Slider')).toBeInTheDocument()
    
        })
 });

@@ -5,13 +5,11 @@ const NavBar = styled.header`
   width: 100%;
   height: 5vh;
   display: flex;
+  flex-direction: row;
   background: rgba(72,85,99,0.1);
   box-sizing: border-box;
-  justify-content: center;
-  flex-direction: row;
   align-items: center;
   color: black;
-  text-align: center;
   position: fixed;
   `;
 

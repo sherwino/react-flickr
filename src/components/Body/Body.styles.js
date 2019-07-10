@@ -3,12 +3,8 @@ import styled from 'styled-components';
 const Card = styled.div`
     width: 100%;
     display: flex;
-    box-sizing: border-box;
-    justify-content: center;
     flex-direction: column;
-    align-items: flex-start;
-    color: black;
-    overflow: hidden;
+    box-sizing: border-box;
   `;
 
 const CardLink = styled.a`
@@ -18,12 +14,16 @@ const CardLink = styled.a`
 `;
 
 const Details = styled.div`
-    margin: 0 1rem 0 0;
+    padding: 0 2rem 0 0;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    overflow: visible;
+`;
+
+const ImgAuthor = styled.span`
+    color: rgb(72,85,99);
 `;
 
 const ImgLink = styled.a`
@@ -31,25 +31,29 @@ const ImgLink = styled.a`
 `;
 
 const ImgTitle = styled.strong`
-    flex: content;
-    width: 100%;
-    margin: 0 0.5rem 0 0;
-
-`;
-
-const ImgAuthor = styled.span`
-    margin: 0 1.5rem 0 0.5rem;
+    text-align: right;
+    font-size: 2rem;
 `;
 
 const ImgStats = styled.div`
     background: rgba(72,85,99,0.9);
     box-shadow: 2px 2px 1px #aaa;
+    opacity: 0.2;
+    &:hover {
+        opacity: 1;
+    }
 `;
 
 const Img = styled.img`
     object-fit: cover;
     height: 90vh;
     width: 100%;
+`;
+
+const LinkContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    text-align: right;
 `;
 
 const Stat = styled.div`
@@ -68,5 +72,6 @@ export {
     ImgStats,
     ImgTitle,
     Img,
+    LinkContainer,
     Stat,
 }
