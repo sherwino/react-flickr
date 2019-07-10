@@ -10,19 +10,19 @@ const Body = props => {
       </ImgLink>
       <Details>
       <ImgStats>
-          <Stat>January 15, 2017</Stat>
-          <Stat>3,234,324 views</Stat>
-          <Stat>3,324 faves</Stat>
-          <Stat>324 comments</Stat>
-        </ImgStats>
-        <LinkContainer>
-          <CardLink href="#">
-              <ImgTitle>Wintertime Happiness</ImgTitle>
-          </CardLink>
-          <CardLink href="#">
-              <ImgAuthor><span>by</span> Alicja Zmyylowska</ImgAuthor>
-          </CardLink>
-        </LinkContainer>
+        <Stat>January 15, 2017</Stat>
+        <Stat>3,234,324 views</Stat>
+        <Stat>3,324 faves</Stat>
+        <Stat>324 comments</Stat>
+      </ImgStats>
+      <LinkContainer>
+        <CardLink href="#">
+          <ImgTitle>Wintertime Happiness</ImgTitle>
+        </CardLink>
+        <CardLink href="#">
+          <ImgAuthor><span>by</span> Alicja Zmyylowska</ImgAuthor>
+        </CardLink>
+      </LinkContainer>
       </Details>
     </Card>
   )
