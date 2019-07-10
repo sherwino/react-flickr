@@ -10,16 +10,16 @@ This project, and was bootstrapped with the following tools.
 - [React Testing Library](https://testing-library.com/)
 - [Styled Components](https://www.styled-components.com/)
 - [Jest](https://jestjs.io/)
-- CSS Variables (Don't think we need to set up SASS for this project)
+- CSS Variables
 
 
-## To run the project in development mode run...
+## To run the project in development mode...
 
 ```sh
 npm dev
 ```
 
-## To run the test written for the project run...
+## To run the test written for the project...
 
 ```sh
 npm test
@@ -27,7 +27,11 @@ npm test
 
 Please note that this script runs the tests in watch mode, for development purposes.
 
+## Objective
+
+Create a​ ​web​ ​component​ ​(can​ ​be​ ​a​ ​pure​ ​web-component​ ​a​ ​React​ ​component​ ​or​ ​an​ ​Angular​ ​directvice) that​ ​shows​ ​a​ ​random​ ​image​ ​form​ ​flickr​ ​every​ ​X​ ​seconds​ ​using​ ​the​ ​flicker​ ​api https://www.flickr.com/services/api/​.​ ​The​ ​number​ ​of​ ​seconds​ ​should​ ​be​ ​controlled​ ​externally using​ ​a​ ​custom​ ​attribute. The​ ​component​ ​should​ ​be​ ​responsive​ ​and​ ​look​ ​well​ ​on​ ​mobile​ ​devices. 
 
 ## Learn More about create-react-app
 
-For more information about what create-react-app provided for me go [here](./docs/cra.md)
+For more information about what create-react-app's original scripts and about what it provides go [here](./docs/cra.md)
+
