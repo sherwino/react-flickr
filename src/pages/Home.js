@@ -1,13 +1,17 @@
-import React from 'react';
-import { Header, Body } from '../components';
+import React from "react";
+import { Header, Body } from "../components";
+import { RefreshRateProvider } from "./refreshRateContext";
 
-const RefreshRateContext = React.createContext();
 
-const Home = () => (
-    <div>
-        <Header content="Header" />
-        <Body content="Body" />
-    </div>
-);
+const Home = () => {
+  return (
+    <RefreshRateProvider>
+        <div>
+          <Header />
+          <Body />
+        </div>
+    </RefreshRateProvider>
+  );
+}
 
 export default Home;
