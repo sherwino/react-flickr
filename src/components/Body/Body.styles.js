@@ -20,6 +20,9 @@ const Details = styled.div`
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    @media (max-width: 468px) {
+        padding: 0;
+  }
 `;
 
 const ImgAuthor = styled.span`
@@ -36,6 +39,7 @@ const ImgTitle = styled.strong`
 `;
 
 const ImgStats = styled.div`
+    display: none;
     background: rgba(72,85,99,0.9);
     box-shadow: 2px 2px 1px #aaa;
     opacity: 0.2;

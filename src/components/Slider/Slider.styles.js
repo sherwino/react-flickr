@@ -6,6 +6,10 @@ const SldrContainer = styled.div`
     align-items: center;
     justify-content: flex-end;
     margin: 0 2rem 0 0;
+    @media (max-width: 468px) {
+    flex-direction: column;
+    margin: 2rem 0;
+  }
     
     output {
         padding: 0 1rem;

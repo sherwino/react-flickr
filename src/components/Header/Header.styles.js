@@ -11,7 +11,11 @@ const NavBar = styled.header`
   align-items: center;
   color: black;
   position: fixed;
-  `;
+  @media (max-width: 468px) {
+    height: 6vh;
+    flex: content;
+  }
+`;
 
 const Logo = styled.img`
     height: 3vh;

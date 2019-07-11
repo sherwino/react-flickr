@@ -84,3 +84,9 @@ const Body = () => {
   );
 };
 export default Body;
+
+// TODO: Get image stats
+// TODO: Construct links for image, and author
+// TODO: Slider style
+// TODO: Move API logic to utils
+// TODO: Improve timers
