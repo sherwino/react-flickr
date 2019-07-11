@@ -16,14 +16,28 @@ This project, and was bootstrapped with the following tools.
 ## To run the project in development mode...
 
 ```sh
-npm dev
+npm run dev
 ```
 
-## To run the test written for the project...
+## To run the build scripts to transpile the project...
 
 ```sh
-npm test
+npm run build
 ```
+
+## To run the tests written for the project...
+
+```sh
+npm run test
+```
+
+## To deploy the static assets to GitHub pages...
+
+```sh
+npm run deploy
+```
+
+Need to update the "homepage" section in the package.json file.
 
 Please note that this script runs the tests in watch mode, for development purposes.
 
