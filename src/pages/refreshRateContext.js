@@ -6,6 +6,7 @@ const RefreshRateProvider = (props) => {
   const [state, setState] = useState({
       rate: 0,
       init: true,
+      timers: [],
       minRate: 0,
       maxRate: 600,
       image: {
