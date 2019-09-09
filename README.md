@@ -6,7 +6,7 @@ React App that uses the Flickr API to cycle through images every X seconds using
 This project, and was bootstrapped with the following tools. 
 
 
-- [Create React App](https://github.com/facebook/create-react-app)
+- [Create React App](https://github.com/facebook/create-react-app) (just for structure)
 - [React Testing Library](https://testing-library.com/)
 - [Styled Components](https://www.styled-components.com/)
 - [Jest](https://jestjs.io/)
